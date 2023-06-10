@@ -131,3 +131,42 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: var(--clr-primary-100);
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: repeat-x;
+    }
+  
+    .order-card {
+        width: 330px;
+        height: 600px;
+    }
+    .order-card > img{
+        width: 330px;
+    }
+    .order-description {
+        padding: 1rem 2rem;
+    }
+    .order-description p{
+        padding-bottom: .75rem;
+    }
+    .order-plan {
+        padding: 1rem .75rem;
+    }
+    .order-plan h4 {
+        color: var(--clr-neutral-300);
+        font-weight: var(--fw-black);
+        font-size: .8rem;
+    }
+    .order-plan span {
+        font-size: .8rem;
+    }
+    .order-plan a {
+        font-size: .8rem;
+    }
+    .btn {
+        font-size: .85rem;
+    }
+  }
